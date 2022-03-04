@@ -10,20 +10,18 @@ function validate()
     
     //3. if name input is blank, display the 'errorName' span, else hide it
     if(name==''){
-        document.getElementById ("errorName").style.display="block";
+        document.getElementById('errorName').style.display ="block";
     }
-    else{
-        document.getElementById("errorName").style.display="none";
-    
-    }
-
+      else{
+          document.getElementById('errorName').style.display="none";
+      }
     //4. if digitCount is not equal to 10, display the 'errorContact' span, else hide it
-    if(digitCount != 10){
-        document.getElementById("errorContact").style.display="block";
+    if(digitCount!=10){
+        document.getElementById('errorContact').style.display="block";
     }
     else{
-        document.getElementById("errorContact").style.display="none";
-
+        document.getElementById('errorContact').style.display="none";
+    }
+           
 }
 
-}
